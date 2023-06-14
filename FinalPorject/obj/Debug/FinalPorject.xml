@@ -1,0 +1,166 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinalPorject
+</name>
+</assembly>
+<members>
+<member name="T:FinalPorject.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources._12291033_Wavy_Tech_19_Single_05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources._60111">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.affordable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.cash_flow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.gadgets">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.gift">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.home__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.image_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.logout__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.pay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.retinadigicam_19122022_0002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.Screenshot_20221219_175705_Maps">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.Screenshot_20221219_180114_Chrome">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FinalPorject.My.Resources.Resources.trolley">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridataset.tblkategoriDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridataset.tblkategoriRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridataset.tblkategoriRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.tblkategoriTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalPorject.db_pemdesktblkategoridataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalPorject.db_pemdesktblkategoridataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalPorject.db_pemdesktblkategoridataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.UpdateAll(FinalPorject.db_pemdesktblkategoridataset)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalPorject.db_pemdesktblkategoridatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
